@@ -4,6 +4,7 @@
      <NavBar/>
     </header>
     <main class="min-h-screen">
+      
       <RouterView></RouterView>
     </main>
     <footer>
@@ -15,11 +16,13 @@
 <script>
 import NavBar from './components/NavBar.vue'
 import ContactFooter from './components/ContactFooter.vue'
+
 export default {
   name: 'App',
   components: {
     NavBar,
-    ContactFooter
+    ContactFooter,
+   
   }
 }
 </script>

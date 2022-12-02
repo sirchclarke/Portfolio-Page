@@ -4,7 +4,7 @@
         <img :src="image">
       </div>
       <div class="info-wrapper flex-col">
-        <h2>Faul in our Stars</h2>
+        <h2>Fault in our Stars</h2>
         
       </div>
       <div class="image-wrapper">
@@ -38,3 +38,7 @@
       
     }
   </script>
+  <style>
+
+
+</style>
